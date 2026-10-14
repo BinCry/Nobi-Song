@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventFace — Private photo retrieval</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header><a class="brand" href="#"><span class="brand-mark">E</span><span>eventface</span></a><nav><a href="#how">Cách hoạt động</a><a href="#privacy">Quyền riêng tư</a><a href="#dashboard">Quản lý</a></nav><button class="signin" id="signin"><span class="google">G</span> Đăng nhập Google</button></header>
+    <main>
+      <section class="hero" id="how">
+        <div class="eyebrow"><i></i> PHOTO RETRIEVAL, WITH CONSENT</div>
+        <h1>Khoảnh khắc của bạn.<br><em>Tìm lại thật riêng tư.</em></h1>
+        <p class="hero-copy">Tải selfie, chọn sự kiện được cấp quyền và nhận ảnh của chính bạn.</p>
+        <div class="actions"><button class="primary" id="start">Tìm ảnh của tôi <span>↗</span></button><a class="text-link" href="#privacy">Cách dữ liệu được bảo vệ <span>→</span></a></div>
+        <div class="trust-row"><span>✓ Chỉ sự kiện được cấp quyền</span><span>✓ Xử lý CPU riêng tư</span><span>✓ Xóa theo chính sách</span></div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="face-card main-card"><div class="scan"><span></span><span></span><span></span><span></span><b></b></div><div class="card-caption"><small>YOUR SEARCH</small><strong>Chờ ảnh xác thực</strong></div></div>
+        <div class="floating-card f-one"><span class="tiny-icon">✦</span><div><small>AI INDEX</small><b>Đã xác thực</b></div><i class="dot"></i></div>
+        <div class="floating-card f-two"><span class="lock">⌁</span><div><small>ACCESS</small><b>Sự kiện riêng tư</b></div></div>
+      </section>
+      <section class="workflow"><div class="section-intro"><span class="eyebrow"><i></i> LUỒNG AN TOÀN</span><h2>Ba bước. Một quyền kiểm soát.</h2></div><div class="steps"><article><span class="step-no">01</span><h3>Chọn sự kiện</h3><p>Chỉ hiển thị sự kiện bạn được phép truy cập.</p></article><article><span class="step-no">02</span><h3>Tải selfie</h3><p>Xác nhận đồng ý trước khi xử lý khuôn mặt.</p></article><article><span class="step-no">03</span><h3>Nhận ảnh</h3><p>Xem và tải ảnh phù hợp trong phiên của bạn.</p></article></div></section>
+      <section class="dashboard" id="dashboard"><div class="dash-head"><div><span class="eyebrow"><i></i> OPERATOR CONSOLE</span><h2>Không gian sự kiện</h2></div><button class="outline" id="health">Kiểm tra hệ thống <span>→</span></button></div><div class="dash-grid"><article class="event-card"><div class="event-top"><span class="status">SẴN SÀNG</span><button aria-label="Tùy chọn">•••</button></div><div class="event-art"><span>◒</span><span>▰</span><span>○</span></div><h3>Sự kiện của bạn</h3><p>Quản lý ảnh, import AI và quyền tham gia.</p><div class="event-footer"><span>Chưa chọn</span><a href="#">Mở <b>↗</b></a></div></article><article class="activity-card"><div class="activity-title"><h3>Trạng thái hệ thống</h3><span id="api-status">Đang kiểm tra</span></div><div class="metrics"><div><small>API</small><strong id="api-value">—</strong></div><div><small>INFERENCE</small><strong>Chưa cấu hình</strong></div><div><small>STORAGE</small><strong>Riêng tư</strong></div></div><p class="muted">Kết nối model thật trước khi mở tìm kiếm khuôn mặt.</p></article></div></section>
+      <section class="privacy" id="privacy"><div><span class="eyebrow"><i></i> PRIVACY BY DESIGN</span><h2>Khuôn mặt không phải<br>là dữ liệu thông thường.</h2></div><div class="privacy-list"><div><span>01</span><p>Không có thư viện ảnh công khai.</p></div><div><span>02</span><p>Không trả embedding về trình duyệt.</p></div><div><span>03</span><p>Không tìm kiếm ngoài phạm vi sự kiện.</p></div></div></section>
+    </main>
+    <footer><a class="brand" href="#"><span class="brand-mark">E</span><span>eventface</span></a><span>© 2026 · Built for private moments</span><a href="#privacy">Quyền riêng tư ↗</a></footer>
+    <div class="toast" id="toast" role="status"></div><script src="/assets/app.js"></script>
+  </body>
+</html>
