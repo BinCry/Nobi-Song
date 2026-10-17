@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # EventFace
@@ -7,91 +6,31 @@
 
 AI-powered face recognition for secure and intelligent event photo discovery.
 
-
-Conversation with Gemini
 <br/>
 
+<!-- Nhóm các badge công nghệ cốt lõi -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 8px;">
+  <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" />
+  <img src="https://img.shields.io/badge/FastAPI_0.115-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL 16" />
+</div>
 
+<!-- Nhóm các badge tính năng & hạ tầng -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 12px;">
+  <img src="https://img.shields.io/badge/pgvector-Enabled-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector" />
+  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/ONNX_Runtime-CPU-005F9E?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime CPU" />
+</div>
 
-<img src="https://img.shields.io/badge/Python_3.12-161B22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python 3.12" />
-
-<img src="https://img.shields.io/badge/FastAPI_0.115-161B22?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="FastAPI" />
-
-<img src="https://img.shields.io/badge/PostgreSQL_16-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL 16" />
-
-
-
-<br/>
-
-
-
-<img src="https://img.shields.io/badge/pgvector-Enabled-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="pgvector" />
-
-<img src="https://img.shields.io/badge/Docker-Ready-161B22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-
-<img src="https://img.shields.io/badge/ONNX_Runtime-CPU-161B22?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime CPU" />
-
-
-
-<br/>
-
-
-
-<img src="https://img.shields.io/badge/Architecture-Modular-21262D?style=flat-square" alt="Modular Architecture" />
-
-<img src="https://img.shields.io/badge/Authentication-Google_OAuth-21262D?style=flat-square&logo=google&logoColor=white" alt="Google OAuth" />
-
-<img src="https://img.shields.io/badge/AI_Inference-CPU_Only-21262D?style=flat-square" alt="CPU Inference" />
-
-
+<!-- Nhóm các badge thông tin kiến trúc -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-bottom: 16px;">
+  <img src="https://img.shields.io/badge/Architecture-Modular-6E5494?style=flat-square" alt="Modular Architecture" />
+  <img src="https://img.shields.io/badge/Authentication-Google_OAuth-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google OAuth" />
+  <img src="https://img.shields.io/badge/AI_Inference-CPU_Only-FF6F00?style=flat-square" alt="CPU Inference" />
+</div>
 
 </div>
 
-
-
----
-
-
-
-## Overview
-
-
-
-**EventFace** is an AI-powered event photo retrieval platform that helps approved attendees discover their own photos through face recognition
-
-Sửa cho hiển thị đều và đẹp trên mobile và laptop
-
-Để các thẻ Badge (huy hiệu) hiển thị đều, đẹp và căn chỉnh hoàn hảo trên cả máy tính (laptop) và điện thoại (mobile), cách tốt nhất là nhóm chúng vào một thẻ <div> bọc ngoài và sử dụng Flexbox với thuộc tính flex-wrap: wrap và khoảng cách hợp lý (gap). Điều này giúp các badge tự động xuống dòng gọn gàng trên màn hình nhỏ mà không bị tràn viền hay lệch lạc.
-
-Dưới đây là phần code HTML đã được tối ưu lại giao diện cho cả mobile và laptop:
-
-HTML
-<div align="center">
-
-  <!-- Nhóm các badge công nghệ cốt lõi -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 8px;">
-    <img src="https://img.shields.io/badge/Python_3.12-161B22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python 3.12" />
-    <img src="https://img.shields.io/badge/FastAPI_0.115-161B22?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="FastAPI" />
-    <img src="https://img.shields.io/badge/PostgreSQL_16-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL 16" />
-  </div>
-
-  <!-- Nhóm các badge tính năng & hạ tầng -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 12px;">
-    <img src="https://img.shields.io/badge/pgvector-Enabled-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="pgvector" />
-    <img src="https://img.shields.io/badge/Docker-Ready-161B22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-    <img src="https://img.shields.io/badge/ONNX_Runtime-CPU-161B22?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime CPU" />
-  </div>
-
-  <!-- Nhóm các badge thông tin kiến trúc (style flat-square nhỏ gọn hơn) -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-bottom: 16px;">
-    <img src="https://img.shields.io/badge/Architecture-Modular-21262D?style=flat-square" alt="Modular Architecture" />
-    <img src="https://img.shields.io/badge/Authentication-Google_OAuth-21262D?style=flat-square&logo=google&logoColor=white" alt="Google OAuth" />
-    <img src="https://img.shields.io/badge/AI_Inference-CPU_Only-21262D?style=flat-square" alt="CPU Inference" />
-  </div>
-
-</div>
-
----
 ---
 
 ## Overview
@@ -171,93 +110,67 @@ Ensure the following tools are installed:
 ```bash
 git clone <repository-url>
 cd EventFace
-```
+Replace <repository-url> with the actual repository URL.
 
-Replace `<repository-url>` with the actual repository URL.
-
-### 2. Configure Environment Variables
-
+2. Configure Environment Variables
 Create an environment file from the provided template.
 
-**Windows:**
+Windows:
 
-```powershell
+PowerShell
 copy .env.example .env
-```
+Linux / macOS:
 
-**Linux / macOS:**
-
-```bash
+Bash
 cp .env.example .env
-```
-
 Configure the required environment variables:
 
-- `GOOGLE_CLIENT_ID`
-- `SESSION_SECRET`
-- S3 storage credentials
-- Approved ONNX model configuration
+GOOGLE_CLIENT_ID
+
+SESSION_SECRET
+
+S3 storage credentials
+
+Approved ONNX model configuration
 
 Do not commit real secrets to version control.
 
-### 3. Start with Docker
-
-```bash
+3. Start with Docker
+Bash
 docker compose up --build
-```
-
 Once the containers are running, open:
 
-**http://localhost:8000**
+http://localhost:8000
 
-The interactive dashboard queries `/api/v1/health` directly.
+The interactive dashboard queries /api/v1/health directly.
 
 Identity and face-search flows require valid credentials, storage configuration, and compatible approved model artifacts before they can be enabled.
 
-## Local Development
-
-### 1. Create a Virtual Environment
-
-```bash
+Local Development
+1. Create a Virtual Environment
+Bash
 python -m venv .venv
-```
+2. Activate the Environment
+Windows:
 
-### 2. Activate the Environment
-
-**Windows:**
-
-```powershell
+PowerShell
 .venv\Scripts\Activate.ps1
-```
+Linux / macOS:
 
-**Linux / macOS:**
-
-```bash
+Bash
 source .venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-```bash
+3. Install Dependencies
+Bash
 pip install -r apps/api/requirements.txt
-```
-
-### 4. Start the Backend
-
-```bash
+4. Start the Backend
+Bash
 uvicorn app.main:app --app-dir apps/api --reload
-```
-
-### 5. Run Tests
-
-```bash
+5. Run Tests
+Bash
 cd apps/api
 pytest tests -q
-```
-
-## System Architecture
-
-```text
+System Architecture
+Plaintext
                     ┌─────────────────────┐
                     │     Browser UI      │
                     └──────────┬──────────┘
@@ -292,13 +205,10 @@ pytest tests -q
     ┌─────────────────┐
     │  Event Photos   │
     └─────────────────┘
-```
+AI Processing Workflow
+Offline Pipeline – Google Colab
 
-### AI Processing Workflow
-
-**Offline Pipeline – Google Colab**
-
-```text
+Plaintext
 Event Photos
     ↓
 Face Detection
@@ -312,11 +222,9 @@ Artifact Export
 Manual Artifact Import
     ↓
 PostgreSQL + pgvector
-```
+Online Pipeline – VPS CPU
 
-**Online Pipeline – VPS CPU**
-
-```text
+Plaintext
 User Selfie
     ↓
 Face Detection
@@ -330,55 +238,57 @@ Vector Similarity Search
 Event Photo Matching
     ↓
 Photo Retrieval Results
-```
-
-## Security & Privacy
-
+Security & Privacy
 EventFace is designed around privacy-conscious biometric data processing.
 
 Key security considerations include:
 
-- Explicit consent before face search.
-- Event-scoped access control.
-- Secure authentication and authorization.
-- Private object storage.
-- Protected biometric embeddings.
-- Restricted image access.
-- Audit logging.
-- Data retention and deletion controls.
+Explicit consent before face search.
 
-> **Important:** Biometric information is sensitive personal data. Deployments require appropriate consent, access controls, retention policies, and legal/privacy review for the jurisdictions in which events operate.
+Event-scoped access control.
 
-## AI Models & Benchmarks
+Secure authentication and authorization.
 
+Private object storage.
+
+Protected biometric embeddings.
+
+Restricted image access.
+
+Audit logging.
+
+Data retention and deletion controls.
+
+Important: Biometric information is sensitive personal data. Deployments require appropriate consent, access controls, retention policies, and legal/privacy review for the jurisdictions in which events operate.
+
+AI Models & Benchmarks
 This repository does not bundle:
 
-- Proprietary or restricted model weights.
-- Real biometric test fixtures.
-- Fabricated benchmark results.
-- Production credentials.
+Proprietary or restricted model weights.
+
+Real biometric test fixtures.
+
+Fabricated benchmark results.
+
+Production credentials.
 
 Model artifacts must be legally licensed, validated, and compatible with the CPU inference runtime.
 
 Benchmark results must be derived from actual evaluations rather than assumed performance.
 
-## Documentation
-
+Documentation
 Additional technical documentation:
 
-- [System Architecture](docs/architecture.md)
-- [AI Artifact Format](docs/ai-artifact.md)
-- [Deployment Guide](docs/deployment.md)
-- [Test Report](docs/test-report.md)
+System Architecture
 
----
+AI Artifact Format
 
-<div align="center">
+Deployment Guide
 
-**EventFace**
+Test Report
 
-*Find your moments. Protect your identity.*
+EventFace
+
+Find your moments. Protect your identity.
 
 Built with Python, FastAPI, PostgreSQL, pgvector, and ONNX Runtime.
-
-</div>
