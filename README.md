@@ -7,26 +7,91 @@
 
 AI-powered face recognition for secure and intelligent event photo discovery.
 
+
+Conversation with Gemini
 <br/>
+
+
 
 <img src="https://img.shields.io/badge/Python_3.12-161B22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python 3.12" />
+
 <img src="https://img.shields.io/badge/FastAPI_0.115-161B22?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="FastAPI" />
+
 <img src="https://img.shields.io/badge/PostgreSQL_16-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL 16" />
 
+
+
 <br/>
+
+
 
 <img src="https://img.shields.io/badge/pgvector-Enabled-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="pgvector" />
+
 <img src="https://img.shields.io/badge/Docker-Ready-161B22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+
 <img src="https://img.shields.io/badge/ONNX_Runtime-CPU-161B22?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime CPU" />
+
+
 
 <br/>
 
+
+
 <img src="https://img.shields.io/badge/Architecture-Modular-21262D?style=flat-square" alt="Modular Architecture" />
+
 <img src="https://img.shields.io/badge/Authentication-Google_OAuth-21262D?style=flat-square&logo=google&logoColor=white" alt="Google OAuth" />
+
 <img src="https://img.shields.io/badge/AI_Inference-CPU_Only-21262D?style=flat-square" alt="CPU Inference" />
+
+
 
 </div>
 
+
+
+---
+
+
+
+## Overview
+
+
+
+**EventFace** is an AI-powered event photo retrieval platform that helps approved attendees discover their own photos through face recognition
+
+Sửa cho hiển thị đều và đẹp trên mobile và laptop
+
+Để các thẻ Badge (huy hiệu) hiển thị đều, đẹp và căn chỉnh hoàn hảo trên cả máy tính (laptop) và điện thoại (mobile), cách tốt nhất là nhóm chúng vào một thẻ <div> bọc ngoài và sử dụng Flexbox với thuộc tính flex-wrap: wrap và khoảng cách hợp lý (gap). Điều này giúp các badge tự động xuống dòng gọn gàng trên màn hình nhỏ mà không bị tràn viền hay lệch lạc.
+
+Dưới đây là phần code HTML đã được tối ưu lại giao diện cho cả mobile và laptop:
+
+HTML
+<div align="center">
+
+  <!-- Nhóm các badge công nghệ cốt lõi -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 8px;">
+    <img src="https://img.shields.io/badge/Python_3.12-161B22?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python 3.12" />
+    <img src="https://img.shields.io/badge/FastAPI_0.115-161B22?style=for-the-badge&logo=fastapi&logoColor=00C7B7" alt="FastAPI" />
+    <img src="https://img.shields.io/badge/PostgreSQL_16-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="PostgreSQL 16" />
+  </div>
+
+  <!-- Nhóm các badge tính năng & hạ tầng -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 12px;">
+    <img src="https://img.shields.io/badge/pgvector-Enabled-161B22?style=for-the-badge&logo=postgresql&logoColor=60A5FA" alt="pgvector" />
+    <img src="https://img.shields.io/badge/Docker-Ready-161B22?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+    <img src="https://img.shields.io/badge/ONNX_Runtime-CPU-161B22?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX Runtime CPU" />
+  </div>
+
+  <!-- Nhóm các badge thông tin kiến trúc (style flat-square nhỏ gọn hơn) -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-bottom: 16px;">
+    <img src="https://img.shields.io/badge/Architecture-Modular-21262D?style=flat-square" alt="Modular Architecture" />
+    <img src="https://img.shields.io/badge/Authentication-Google_OAuth-21262D?style=flat-square&logo=google&logoColor=white" alt="Google OAuth" />
+    <img src="https://img.shields.io/badge/AI_Inference-CPU_Only-21262D?style=flat-square" alt="CPU Inference" />
+  </div>
+
+</div>
+
+---
 ---
 
 ## Overview
